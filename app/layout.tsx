@@ -5,7 +5,11 @@ export const metadata = {
   description: 'Pelayanan Publik Cepat, Transparan, dan Terintegrasi untuk Warga Rawa Buntu',
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="id" className="scroll-smooth">
       <head>
